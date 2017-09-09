@@ -3,5 +3,8 @@ All notable changes to the "iferrblocks" extension will be documented in this fi
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## 1.1.1
 - Initial release
+
+## [Unreleased]
+- ...

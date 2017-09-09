@@ -2,7 +2,7 @@
   "name": "iferrblocks",
   "displayName": "(Un)fold Go error handling blocks",
   "description": "An extension that (un)folds all Go error handling blocks.",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "publisher": "rstuven",
   "repository": {
     "type": "git",
@@ -14,7 +14,7 @@
   "categories": [
     "Other"
   ],
-  "keywords": [
+  "keywords": [
     "folding",
     "go",
     "golang",

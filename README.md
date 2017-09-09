@@ -10,7 +10,7 @@ This extension finds all the `if err` blocks and either fold them or unfold them
 
 ## Release Notes
 
-### 1.0.0
+### 1.1.1
 
 Initial release of iferrblocks.
 
