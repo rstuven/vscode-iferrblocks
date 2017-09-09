@@ -1,6 +1,6 @@
 {
   "name": "iferrblocks",
-  "displayName": "(Un)fold error handling blocks",
+  "displayName": "(Un)fold Go error handling blocks",
   "description": "An extension that (un)folds all Go error handling blocks.",
   "version": "1.0.0",
   "publisher": "rstuven",
