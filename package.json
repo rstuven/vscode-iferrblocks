@@ -1,0 +1,61 @@
+{
+  "name": "iferrblocks",
+  "displayName": "(Un)fold error handling blocks",
+  "description": "An extension that (un)folds all Go error handling blocks.",
+  "version": "1.0.0",
+  "publisher": "rstuven",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rstuven/vscode-iferrblocks.git"
+  },
+  "engines": {
+    "vscode": "^1.16.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onLanguage:go"
+  ],
+  "main": "./out/src/extension",
+  "contributes": {
+    "commands": [
+      {
+        "command": "iferrblocks.fold",
+        "title": "Fold if err Blocks"
+      },
+      {
+        "command": "iferrblocks.unfold",
+        "title": "Unfold if err Blocks"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "alliferr.fold",
+        "key": "alt+cmd+[Period]",
+        "mac": "alt+cmd+[Period]",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "alliferr.unfold",
+        "key": "shift+alt+cmd+[Period]",
+        "mac": "shift+alt+cmd+[Period]",
+        "when": "editorTextFocus"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "test": "npm run compile && node ./node_modules/vscode/bin/test"
+  },
+  "devDependencies": {
+    "typescript": "^2.5.2",
+    "vscode": "^1.1.5",
+    "mocha": "^3.5.0",
+    "@types/node": "^7.0.43",
+    "@types/mocha": "^2.2.42"
+  }
+}
