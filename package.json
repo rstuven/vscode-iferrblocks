@@ -38,14 +38,14 @@
     ],
     "keybindings": [
       {
-        "command": "alliferr.fold",
-        "key": "alt+cmd+[Period]",
+        "command": "iferrblocks.fold",
+        "key": "alt+ctrl+[Period]",
         "mac": "alt+cmd+[Period]",
         "when": "editorTextFocus"
       },
       {
-        "command": "alliferr.unfold",
-        "key": "shift+alt+cmd+[Period]",
+        "command": "iferrblocks.unfold",
+        "key": "shift+ctrl+cmd+[Period]",
         "mac": "shift+alt+cmd+[Period]",
         "when": "editorTextFocus"
       }
