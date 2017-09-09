@@ -1,4 +1,4 @@
-# iferrblocks
+# vscode-iferrblocks
 
 Don't get me wrong: I do think that [Go's error handling is elegant](https://davidnix.io/post/error-handling-in-go/), but sometimes one just want to follow the happy path alone folding those pessimistic parts of the code, and then get back to fully see all that wonderful error handling. Or maybe not if you find it [cluttered and hard to read](https://www.reddit.com/r/golang/comments/6v07ij/copypasting_if_err_nil_return_err_everywhere/).
 
